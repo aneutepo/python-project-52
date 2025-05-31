@@ -36,9 +36,3 @@ format-app:
 	uv run ruff check --fix task_manager
 
 check: test lint
-
-
-git:
-	git add .
-	git commit -m "fix errors"
-	git push

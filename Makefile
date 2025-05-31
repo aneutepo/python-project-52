@@ -27,7 +27,7 @@ build:
 	./build.sh
 
 render-start:
-	gunicorn task_manager.wsgi
+	python -m gunicorn task_manager.wsgi --bind 0.0.0.0:${PORT}
 
 lint:
 	uv run ruff check task_manager

@@ -1,6 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/aneutepo/python-project-52/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/aneutepo/python-project-52/actions)
 
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aneutepo_python-project-52&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=aneutepo_python-project-52)
+
+
+
 ### Production Build:
 ([Product](https://python-project-52-5de4.onrender.com))
 
